@@ -2,9 +2,9 @@ x-uffizzi:
   ingress:
     service: app
     port: 80
-      continuous-previews:
-       deploy_preview_when_image_is_created: true
-       delete_preview_after: 720h
+   continuous-previews:
+    deploy_preview_when_image_is_created: true
+    delete_preview_after: 720h
 services:
   app:
     build: .
