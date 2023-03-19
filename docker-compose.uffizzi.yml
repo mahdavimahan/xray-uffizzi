@@ -2,7 +2,7 @@ x-uffizzi:
   ingress:
     service: app
     port: 80
-
+    delete_preview_after: 720h
 services:
   app:
     build: .
