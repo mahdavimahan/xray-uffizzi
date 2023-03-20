@@ -22,4 +22,3 @@ services:
       - SYS_ADMIN
 volumes:
   data:
-
